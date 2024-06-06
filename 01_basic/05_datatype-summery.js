@@ -35,3 +35,32 @@ let myfunction=function(){
 }
 
 console.log(typeof myfunction)
+
+
+
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack memory used  (primitive), Heap memory used (non-primitive)
+ 
+let myYoutubename="Abhishekkrishna.com"
+
+let anotherName=myYoutubename
+anotherName="Abhishekaur code"
+
+console.log(myYoutubename);
+console.log(anotherName);
+
+
+let userOne={
+    email:"abhishek@google.com",
+    upi:"an@ybl"
+}
+let userTwo=userOne
+userTwo.email="krishna@gmail.com" //reference leta hai ek jagah
+
+console.log(userOne.email)
+console.log(userTwo.email)
