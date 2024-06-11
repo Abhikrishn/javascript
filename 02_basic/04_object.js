@@ -41,13 +41,40 @@ const user=[
     }
 ]
 
-console.log(user[1].email)
-console.log(tingerUser)
-console.log(Object.keys(tingerUser))
-console.log(Object.values(tingerUser))
-console.log(Object.entries(tingerUser))//Returns an array of key/values of the enumerable properties of an object
+// console.log(user[1].email)
+// console.log(tingerUser)
+// console.log(Object.keys(tingerUser))
+// console.log(Object.values(tingerUser))
+// console.log(Object.entries(tingerUser))//Returns an array of key/values of the enumerable properties of an object
 
-console.log(tingerUser.hasOwnProperty('isLoggedin'))
+// console.log(tingerUser.hasOwnProperty('isLoggedin'))
+
+const course={
+    coursename:"javascript playlist",
+    price:"999",
+    courseInstructor:"Abhishek"
+}
+// course.courseInstructor
+
+//code(object) destructure which is used in react
+
+//const {courseInstructor}=course
+const {courseInstructor:Instructor}=course
+console.log(Instructor)
+
+//////////////// API ////////////
+//json format(javascript object notation)
+// {
+//     "name":"abhishek",
+//    " age":"18",
+//    "course":"javascript"
+// }
+
+[
+    {},
+    {},
+    {}
+]
 
 
    
