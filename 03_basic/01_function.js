@@ -35,4 +35,36 @@ function loggedinusermessage(username="ak"){
 
 }
 // console.log(loggedinusermessage("Abhishek"))
-console.log(loggedinusermessage("kk"))
+// console.log(loggedinusermessage("kk"))
+
+
+function pricecartcalculate(val1,val2, ...num1){//(...work as rest operator sometime it is also a spread operator)
+    return num1
+}
+//console.log(pricecartcalculate(200,400,600,700,870)) //output[600,700,870] becuase first two is val1 and val2
+
+const user={
+    username:"Abhishek",
+    price:100
+}
+function userhandleObject(anyObject){
+    console.log(`username of a object is ${anyObject.username} and the price is ${anyObject.price}`)
+}
+//userhandleObject(user)
+
+//also pass pobject in this way
+userhandleObject({
+username:"sam",
+price:300
+})
+
+
+const newArray=[200,400,700,"abhishek"]
+
+function anyArray(getarray){
+return getarray[3]
+}
+// console.log(anyArray(newArray))
+
+// also this way
+console.log(anyArray([200,800,100,700]))
