@@ -20,14 +20,41 @@ for (let i=0; i<=45; i++){
 
 // var numbersArray = [1,13,22,123,49]
 
-let myArray=[1,13,22,123,49]
+// let myArray=[1,13,22,123,49]
 
-for(let i=0; i<myArray.length; i++){
-    console.log(myArray[i])
-}
+// for(let i=0; i<myArray.length; i++){
+//     console.log(myArray[i])
+// }
 
-let sum=0
-for(let i=0; i<myArray.length; i++){
-    sum = sum +myArray[i]
-}
-console.log("the sum is:",+sum)
+// let sum=0
+// for(let i=0; i<myArray.length; i++){
+//     sum = sum +myArray[i]
+// }
+// console.log("the sum is:",+sum)
+
+
+// sweap two variable in a javascript
+
+// let a=10;
+// let b=20;
+// let temp;
+
+// console.log(`value of a before sweapping is:${a}`)
+// console.log(`value of b before sweapping is:${b}`)
+
+// temp=a;
+// a=b;
+// b=temp;
+
+// console.log(`value of a after sweapping is:${a}`)
+// console.log(`value of b after sweapping is:${b}`)
+
+// sweap two variable in a javascript without using a third variable
+
+let a=20;
+let b=30;
+
+[a,b]=[b,a]
+
+ console.log(`value of a after sweapping is:${a}`)
+ console.log(`value of b after sweapping is:${b}`)
