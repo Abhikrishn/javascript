@@ -58,3 +58,21 @@ let b=30;
 
  console.log(`value of a after sweapping is:${a}`)
  console.log(`value of b after sweapping is:${b}`)
+
+
+//  Write a JavaScript program to delete the rollno property from the following object. Also print the object before or after deleting the property.
+// Sample object:
+// var student = {
+// name : "David Rayy",
+// sclass : "VI",
+// rollno : 12 };
+
+
+const student={
+    name:"Abhishek krishna",
+    class:"B.tech 4th year",
+    roll_no:1908226
+}
+console.log(student)
+delete student.roll_no
+console.log(student)
